@@ -104,7 +104,7 @@ def chatWithSpark(prompt):
 
 def chatWithDeepSeek(prompt):
 
-    client = OpenAI(api_key="sk-b851b93ba53b4c86a8cfdb368c74ccf8", base_url="https://api.deepseek.com")
+    client = OpenAI(api_key="YOUR-API-KEY", base_url="https://api.deepseek.com")
 
     response = client.chat.completions.create(
         model="deepseek-chat",
